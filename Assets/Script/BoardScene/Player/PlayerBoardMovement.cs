@@ -5,10 +5,10 @@ using UnityEngine.Tilemaps;
 
 public class PlayerBoardMovement : MonoBehaviour
 {
-    [SerializeField] private Tilemap boardTiles;
-    [SerializeField] private LadderTileMechanism ladderTileMechanism;
-    [SerializeField] private SnakeTileMechanism snakeTileMechanism;
-    [SerializeField] private PlayerPositionManager playerPositionManager;
+    public Tilemap boardTiles;
+    public LadderTileMechanism ladderTileMechanism;
+    public SnakeTileMechanism snakeTileMechanism;
+    public PlayerPositionManager playerPositionManager;
     private int moveBeforeUp, totalSquares;
     private bool isGoingRight;
 
